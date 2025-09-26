@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Portfólio Pessoal
 
-## Project info
+Este é o código-fonte do meu modelo de portfólio, um site de página única criado para mostrar suas habilidades, projetos e informações de contato, usem como quiser.
 
-**URL**: https://lovable.dev/projects/92fbce67-176b-49cf-b67c-1ba5a368fdb2
+## ✨ Funcionalidades
 
-## How can I edit this code?
+- **Hero Section com Efeito de Terminal:** Uma introdução interativa que simula um terminal.
+- **Seção Sobre Mim:** Uma breve introdução sobre mim.
+- **Seção de Habilidades:** Uma lista das minhas habilidades e tecnologias que domino.
+- **Seção de Projetos:** Uma vitrine dos meus projetos mais recentes.
+- **Seção de Contato:** Um formulário para entrar em contato comigo.
+- **Cursor Personalizado e Fundo Animaado:** Para uma experiência de usuário mais envolvente.
 
-There are several ways of editing your application.
+## 🚀 Tecnologias Utilizadas
 
-**Use Lovable**
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/92fbce67-176b-49cf-b67c-1ba5a368fdb2) and start prompting.
+## 📦 Como Executar o Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+Siga os passos abaixo para executar o projeto localmente:
 
-**Use your preferred IDE**
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/DevRafa2007/Portifoil.git
+   ```
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd NOME_DO_DIRETORIO
+   ```
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+O site estará disponível em `http://localhost:8080`.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📄 Licença
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/92fbce67-176b-49cf-b67c-1ba5a368fdb2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
