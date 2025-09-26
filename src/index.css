@@ -127,8 +127,8 @@
     @apply border-border;
   }
 
-  html, body {
-    cursor: none;
+  html, body, button, a, input[type="submit"], input[type="button"], .cursor-pointer {
+    cursor: none !important;
   }
 
   body {
