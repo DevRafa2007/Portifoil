@@ -127,6 +127,10 @@
     @apply border-border;
   }
 
+  html, body {
+    cursor: none;
+  }
+
   body {
     @apply bg-background text-foreground font-inter overflow-x-hidden;
   }
